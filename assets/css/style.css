@@ -57,9 +57,40 @@ h1, h2 {
     border-bottom: 1px solid #167eae;
 }
 
-/* webdesign bachground image*/
+/* webdesign background image*/
+
+#webdesign-background-image-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #webdesign-background-image{
     height: 600px;
     width: 100%;
-    background: url(../images/webdesign-background-image.png) no--repeat center  center;
+    background: url(../images/webdesign-background-image.png) no-repeat center center;
+
+    
 }
+
+/*about me section*/
+
+#about-me{
+    height: 600px;
+}
+
+#left-about{
+    padding-top: 30px;
+    width: 60%;
+    float: left;
+    color:blue
+}
+
+#right-about{
+    padding-top: 30px;
+    width: 40%;
+    float: right;
+    color:red;
+}
+
+
