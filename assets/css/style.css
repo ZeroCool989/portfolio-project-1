@@ -83,19 +83,50 @@ h1, h2 {
     text-align: center;
     margin-top: 20px;
 }
+#container {
+    display: flex;
+    column-gap: 0px;
+
+}
 
 #left-about{
-    margin-left: 40px;
-    padding-top: 30px;
-    width: 60%;
-    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-top: 40px;
+    width: 80%;
+    
     
 }
 
 #right-about{
     padding-top: 30px;
-    width: 40%;
-    float: right;  
+    width: 20%;
+    margin-top: 25px;
+    margin-right: 250px;  
 }
+
+
+#circle-container {
+    width: 400px;
+    height:400px;
+    padding:30px;
+    border-style:solid;
+    border-color: #167eae;
+    mask-border-width: 1px;
+    border-radius: 50%;
+    margin:0 auto;
+   
+}
+
+#circle-cover-bg {
+    
+    background: url(../images/profile-picture.jpg) no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+
 
 
