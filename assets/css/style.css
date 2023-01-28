@@ -137,6 +137,27 @@ h1, h2 {
     margin-left: 350px;
 }
 
+/*footer*/
+footer{
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+.social-networks > li {   
+    display: inline;
+    text-align: center;
+    
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    text-align: center;
+    color: #167eae;
+}
 
 
 
