@@ -79,18 +79,23 @@ h1, h2 {
     height: 600px;
 }
 
+#about-me h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
 #left-about{
+    margin-left: 40px;
     padding-top: 30px;
     width: 60%;
     float: left;
-    color:blue
+    
 }
 
 #right-about{
     padding-top: 30px;
     width: 40%;
-    float: right;
-    color:red;
+    float: right;  
 }
 
 
