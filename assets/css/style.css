@@ -233,3 +233,69 @@ footer {
         text-align: center;
     }
 }
+
+/* styles for responsive website medium sized devices */
+
+@media all and (max-width: 950px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-sizing: border-box;
+    }
+    #logo {
+        margin-left: 40px;
+    }
+
+    #menu {
+        height: 400px;
+    }
+
+    #about-me h1 {
+        text-align: center;
+        margin-top: 50px;
+        margin-right: 50px;
+        margin-left: 40px;
+
+    }
+
+    #circle-container {
+        display: none;
+    }
+
+    #circle-cover-bg {
+        display: none;
+    }
+
+    #left-about {
+        text-align: center;
+        width: 300px;
+        height: 800px;
+        margin-right: 50px;
+        margin-top: 0px;
+        margin-left: 100px;
+    }
+
+    #contact {
+        text-align: center;
+        width: 400px;
+        height: 650px;
+    }
+
+    #schedule-a-meeting {
+        text-align: center;
+        width: 300px;
+        margin-top: 100px;
+        margin-left: 200px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
