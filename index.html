@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Learn more about me and my background, interests, and skills.">
     <meta name="keywords" content="My Name, about me, bio, resume, CV, personal website">
-    <meta name="author" content="Almir Dumisic"> 
+    <meta name="author" content="Almir Dumisic">
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Almir Dumisic - About Me</title>
 </head>
+
 <body>
     <header>
-        <a href="index.html">
-            <h1 id="logo">About Me</h1>
-        </a>
-        <nav>
+        <nav class="navbar">
+            <div>
+                <a href="index.html">
+                    <h1 id="logo">About Me</h1>
+                </a>
+            </div>
             <ul id="menu">
-                <li>
+                <li id="menu-list">
                     <a href="#contact">Contact</a>
                 </li>
                 <li>
@@ -30,81 +34,113 @@
             </ul>
         </nav>
     </header>
-    <section id="home" id="webdesign-background-image-outer"> 
+    <!-- Home Section -->
+    <section id="home" id="webdesign-background-image-outer">
         <div id="webdesign-background-image">
 
         </div>
     </section>
 
+    <!-- About Me Section -->
     <section id="about-me">
         <h1>A little bit about Myself</h1>
-        <div id="container">   
+        <div id="container">
             <div id="left-about">
-                <div id="left-about"> 
+                <div id="left-about">
                     <p>
-                        As a beginner in the field of web development, I am excited to dive into the world of full stack development. I knew that this would be a challenging journey, but I was ready to take on the challenge.
-        
-                        I started by building a strong foundation in web development technologies such as HTML, CSS, and JavaScript. I also picking up a programming language, I chose to learn Python, as it is widely used in web development and has a large community. Additionally, I am learning about web frameworks like  Django, and Flask which make it easier to structure and develop web applications.
-        
-                        Next steps are to dive into the back-end development and to learn about databases and SQL. I also using Git, a version control system, which is essential to keep track of my code and collaborating with other developers.
-        
-                        I also planning to get hands-on experience in server-side development and deployment. This included setting up and configuring a web server, and learning how to deploy and scale web applications.
-        
-                        To improve my skills, I started a full-stack diplome degree at Code Institute and participated in coding challenges. This helps me to gain practical experience and improve my skills.
-        
-                        Overall, becoming a full stack developer requires a broad set of skills and technologies, but with dedication and practice, I am confident that I will become a successful full stack developer.
+                        As a beginner in the field of web development, I am excited to dive into the world of full stack
+                        development. I knew that this would be a challenging journey, but I was ready to take on the
+                        challenge.
+
+                        I started by building a strong foundation in web development technologies such as HTML, CSS, and
+                        JavaScript. I also picking up a programming language, I chose to learn Python, as it is widely
+                        used in web development and has a large community. Additionally, I am learning about web
+                        frameworks like Django, and Flask which make it easier to structure and develop web
+                        applications.
+
+                        Next steps are to dive into the back-end development and to learn about databases and SQL. I
+                        also using Git, a version control system, which is essential to keep track of my code and
+                        collaborating with other developers.
+
+                        I also planning to get hands-on experience in server-side development and deployment. This
+                        included setting up and configuring a web server, and learning how to deploy and scale web
+                        applications.
+
+                        To improve my skills, I started a full-stack diplome degree at Code Institute and participated
+                        in coding challenges. This helps me to gain practical experience and improve my skills.
+
+                        Overall, becoming a full stack developer requires a broad set of skills and technologies, but
+                        with dedication and practice, I am confident that I will become a successful full stack
+                        developer.
                     </p>
                 </div>
             </div>
             <div id="right-about">
                 <div id="circle-container">
                     <div id="circle-cover-bg">
-    
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact">
         <div id="schedule-a-meeting">
             <h1>Contact Me</h1>
-            <p>If you would like to get in touch with me, please feel free to schedule a meeting with me over my calendly link at the bottom right oof the page or use the contact form below. I'll do my best to respond to you as soon as possible.</p>
+            <p>If you would like to get in touch with me, please feel free to schedule a meeting over the calendly link
+                at the bottom right of the page or use the contact information below. I'll do my best to respond to you
+                as soon as possible.</p>
             <br>
             <h3>Available Times</h3>
             <h4>Monday to Friday: 6:00 PM - 8:00 PM</h4>
             <br>
-            <p>Please note that these are my general availability times and I may be able to accommodate other times as well. If the above times do not work for you, please let me know and we can schedule a call at a more convenient time for both of us.</p>
+            <p>Please note that these are my general availability times and I may be able to accommodate other times as
+                well. If the above times do not work for you, please let me know and we can schedule a call at a more
+                convenient time for both of us.</p>
             <br>
             <h3>Contact Information</h3>
             <h4>Email: almir_duma@hotmail.com</h4>
             <h4>tel: 0049-176-2755-6965</h4>
-
         </div>
         <!-- Calendly badge widget begin -->
         <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
         <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-        <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/almirdumisic/30-minute-meeting', text: 'Schedule time with me', color: '#0069ff', textColor: '#ffffff', branding: true }); }</script>
+        <script type="text/javascript">
+            window.onload = function () {
+                Calendly.initBadgeWidget({
+                    url: 'https://calendly.com/almirdumisic/30-minute-meeting',
+                    text: 'Schedule time with me',
+                    color: '#0069ff',
+                    textColor: '#ffffff',
+                    branding: true
+                });
+            }
+        </script>
         <!-- Calendly badge widget end -->
         <!-- Calendly inline widget end -->
-
         </div>
     </section>
-    
+
+    <!-- Footer Section -->
     <Footer>
-         <!--font awsome script-->
-         <script src="https://kit.fontawesome.com/4912cd7289.js" crossorigin="anonymous"></script>
-         <ul class="social-networks">
-             <li>
-                <a href="https://www.linkedin.com/in/almir-dumisic/" target="_blank"><i class="fa-brands fa-linkedin"></i></a> 
-             </li>
-             <li>
-                 <a href="https://www.xing.com/profile/Almir_Dumisic/cv?back_to=mehub" target="_blank"><i class="fa-brands fa-xing"></i></a>
-             </li>
-             <li>
-                 <a href="https://github.com/ZeroCool989" target="_blank"><i class="fa-brands fa-github"></i></a>
-             </li>
-         </ul>
+        <!--font awsome script-->
+        <script src="https://kit.fontawesome.com/4912cd7289.js" crossorigin="anonymous"></script>
+        <ul class="social-networks">
+            <li>
+                <a href="https://www.linkedin.com/in/almir-dumisic/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://www.xing.com/profile/Almir_Dumisic/cv?back_to=mehub" target="_blank"><i
+                        class="fa-brands fa-xing"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/ZeroCool989" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </li>
+        </ul>
     </Footer>
 </body>
+
 </html>

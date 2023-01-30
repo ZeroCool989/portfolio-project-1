@@ -4,9 +4,12 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     font-family: solitreo, sans-serif;
     font-weight: 300;
     color:#167eae;
@@ -32,13 +35,11 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    overflow: hidden;
-    
+    overflow: hidden;   
 }
 
 #menu, #logo{
     line-height: 75px;
-
 }
 #menu li {
     float: right;
@@ -64,21 +65,21 @@ h1, h2 {
 #webdesign-background-image-outer{
     height: 600px;
     width: 100%;
-    overflow: hidden;
 }
 
 #webdesign-background-image{
     height: 600px;
     width: 100%;
     background: url(../images/webdesign-background-image.png) no-repeat center center;
-
-    
 }
 
 /*about me section*/
 
 #about-me{
-    height: 500px;
+    flex: 1;
+    height: 450px;
+    width: 100%;
+    
 }
 
 #about-me h1{
@@ -88,16 +89,13 @@ h1, h2 {
 #container {
     display: flex;
     column-gap: 0px;
-
 }
 
 #left-about{
-    margin-top: 70px;
+    margin-top: 40px;
     margin-left: 50px;
     padding-top: 40px;
-    width: 80%;
-    
-    
+    width: 80%;   
 }
 
 #right-about{
@@ -116,24 +114,21 @@ h1, h2 {
     border-color: #167eae;
     mask-border-width: 1px;
     border-radius: 50%;
-    margin:0 auto;
-   
+    margin:0 auto;  
 }
 
 #circle-cover-bg {
-    
     background: url(../images/profile-picture.jpg) no-repeat center center;
     height:100%;
     border-radius: 50%;
     overflow: hidden;
-    
 }
 
 /*contact section*/
 
 #schedule-a-meeting {
     text-align: center;
-    height: 400px;
+    height: 450px;
     width: 50%;
     margin-top: 350px;
     margin-left: 350px;
@@ -147,10 +142,10 @@ footer{
 .social-networks {
     text-align: center;
 }
+
 .social-networks > li {   
     display: inline;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .social-networks i {
@@ -160,6 +155,71 @@ footer{
     text-align: center;
     color: #167eae;
 }
+
+/*Media queries*/
+
+/* styles for responsive website on hand-held devices */
+
+@media all and (max-width: 600px) { 
+    .navbar {
+       display: flex;
+       justify-content: space-between;
+       height: 150px;
+       flex-direction: column;
+       text-align: center;
+       flex-wrap: wrap;
+    }
+    #logo{
+        margin-left: 150px;
+    }
+    #about-me h1{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #webdesign-background-image{
+        display: none;
+    }
+
+    #about-me h1{
+        margin-left: 80px;
+       
+    }
+    #circle-container{
+        display: none;
+    }
+    #circle-cover-bg {
+        display: none;
+    }
+    #left-about{
+        text-align: center;
+        width: 300px;
+        height: 800px;
+        margin-right: 50px;
+        margin-top: 0px;
+        margin-left: 55px;
+    }
+
+    #contact{
+        text-align: center;
+        width:600px;
+        height: 650px;  
+      }
+
+      #schedule-a-meeting {
+        text-align: center;
+        width: 50%;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    footer {
+        margin-left: 50px;
+    }
+}
+
+
+
+
 
 
 
